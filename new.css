@@ -1,0 +1,611 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Cormorant Garamond', serif;
+    
+}
+
+
+.header{
+    
+    background-color: rgb(36, 36, 36);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between; 
+    
+   
+}
+
+.header li{
+    display: inline;
+    
+    
+    
+}
+
+.header p{
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+}
+
+#bub1{
+    margin-left: 500px;
+    margin-top: 60px;
+    background-color: rgba(206, 77, 26, 0.838);
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+#bub2{
+    margin-top: 60px;
+    margin-left: 200px;
+    background-color: rgba(206, 77, 26, 0.838);
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 3s;
+}
+
+
+
+.first{
+    display: flex;
+    flex-direction: row;
+    background-color:  rgba(46, 93, 15, 0.365);
+    height: 600px;
+    
+    
+}
+
+.greet{
+    display: flex;
+    width: 40%;
+    color: rgba(240, 238, 197, 0.791);
+    font-size: 300px;
+    
+}
+
+#greet{
+    margin-top: 100px;
+    margin-left: 60px;
+    opacity: 0;
+    transition: opacity 3s;
+}
+
+.intro{
+    display: flex;
+    color: rgb(246, 253, 228);
+    font-size: 25px;
+    flex-direction: column;
+    
+}
+#intro{
+    display: none;
+    
+   
+}
+
+
+span{
+    display: inline-block;
+    opacity: 0;
+    transition: all 1s ease;
+    transform: translateX(50px);
+}
+
+
+span.fade{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+#trudis{
+    display: block;
+    margin-top: 60px;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+.desc{
+    height: 600px;
+    width: 100%;
+    background-color: red;
+}
+
+.cred{
+    width: 100%;
+    height: 1600px;
+    background-color: rgb(255, 243, 227);
+    
+    
+}
+
+.credhead{
+    height: 315px;
+    text-align: center;
+    background-color: rgb(255, 243, 227);
+    
+}
+
+.topimg{
+    display: flex;
+    flex-direction: row;
+}
+
+.img1{
+    height: 50px;
+    display: flex;
+
+}
+
+.img1 img{
+    margin-left: 100px;
+    transform: translateY(50px);
+    height: 200px;
+    transform: rotate(-30deg);
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.credhead h4{
+    transform: translateY(100px);
+    font-size: 50px;
+    background: -webkit-radial-gradient(#c4aa04cf, #ffffff);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+    
+}
+
+.img2{
+    
+    display: flex;
+}
+
+.img2 img{
+    opacity: 0;
+    transition: opacity 2s;
+    margin-left: 800px;
+    transform: translateY(50px);
+    height: 200px;
+    transform: rotate(30deg);   
+}
+
+
+
+.img3{
+    height: 300px;
+    display: flex;
+
+}
+
+#img3{
+    opacity: 0;
+    transition: opacity 2s;
+    margin-left: 100px;
+    transform: translateY(50px);
+    height: 200px;
+    transform: rotate(210deg);   
+}
+
+.img4{
+    height: 300px;
+    display: flex;
+
+}
+
+
+#img4{
+    opacity: 0;
+    transition: opacity 2s;
+    margin-left: 800px;
+    transform: translateY(50px);
+    height: 200px;
+    transform: rotate(150deg);   
+}
+
+.credcontainer{
+    background-color: grey;
+    width: 75%;
+    height: 600px;
+    margin-left: 150px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.credtextrow1{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
+.credbox1{
+    width: 34%;
+    height: 100%;
+    background-image: url(https://www.icharts.net/wp-content/uploads/2020/01/Why-Coffee-and-Study-Go-Hand-in-Hand4-750x400.jpg);
+}
+
+.credbox2{
+    width: 33%;
+    height: 100%;
+    font-size: 30px;
+    background-color: rgb(241, 241, 241);
+}
+
+.credbox2 h4{
+    font-size: 30px;
+    margin: 40px;
+    
+}
+
+.credbox2 p{
+    font-size: 20px;
+}
+
+
+.credbox3{
+    width: 33%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1623461487986-9400110de28e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80);
+    background-size: cover;
+}
+
+.credtextrow2{
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+
+.credbox4{
+    width: 34%;
+    height: 100%;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.credbox4 h4{
+    font-size: 30px;
+    margin: 40px;
+}
+
+.credbox4 p{
+    font-size: 20px;
+}
+
+.credbox5{
+    width: 33%;
+    height: 100%;
+    background-image: url(https://www.apu.edu.my/sites/default/files/04_bachelor-of-computer-engineering-with-honours.jpg);
+}
+
+.credbox6{
+    width: 33%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.credbox6 h4{
+    font-size: 30px;
+    margin: 40px;
+    margin-bottom: 20px;
+}
+
+.credbox6 p{
+    font-size: 20px;
+}
+
+.projects{
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(255, 243, 227);
+    font-size: 60px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    background: radial-gradient(closest-corner at 70% 30%, rgb(252, 223, 79),rgb(255, 238, 151) , rgb(255, 243, 227));
+    
+     
+    
+}
+
+
+
+
+
+
+#curveletter1{
+   transform: rotate(90deg);
+
+}
+
+#curveletter7{
+    transform: translateY(50px) rotate(90deg);
+ }
+
+#curveletter16{
+    transform: translateY(175px) rotate(90deg);
+}
+
+#curveletter18{
+    transform: translateX(20px) translateY(150px) rotate(75deg);
+}
+
+#curveletter19{
+    transform: translateX(32px) translateY(102px) rotate(70deg);
+}
+
+#curveletter20{
+    transform: translateX(49px) translateY(52px) rotate(65deg);
+}
+
+#curveletter22{
+    transform: translateX(90px) translateY(28px) rotate(62deg);
+}
+
+#curveletter23{
+    transform: translateX(140px) translateY(-55px) rotate(30deg);
+}
+
+#curveletter25{
+    transform: translateX(200px) translateY(-125px) rotate(15deg);    
+}
+
+#curveletter28{
+    transform: translateX(295px) translateY(-200px) rotate(0deg);    
+}
+
+#curveletter36{
+    transform: translateX(495px) translateY(-295px) rotate(-10deg);    
+}
+
+#curveletter40{
+    transform: translateX(580px) translateY(-415px) rotate(-25deg);    
+}
+
+#curveletter41{
+    transform: translateX(615px) translateY(-509px) rotate(-25deg);    
+}
+
+#curveletter42{
+    transform: translateX(630px) translateY(-614px) rotate(-35deg);    
+}
+
+#curveletter43{
+    transform: translateX(642px) translateY(-714px) rotate(-40deg);    
+}
+
+#curveletter44{
+    transform: translateX(632px) translateY(-834px) rotate(-65deg);    
+}
+
+#curveletter45{
+    transform: translateX(647px) translateY(-940px) rotate(-70deg);    
+}
+
+#curveletter49{
+    transform: translateX(665px) translateY(-1115px) rotate(-80deg);    
+}
+
+#curveletter50{
+    transform: translateX(710px) translateY(-1280px) rotate(-60deg);    
+}
+
+#curveletter54{
+    transform: translateX(725px) translateY(-1377px) rotate(-60deg);    
+}
+
+#curveletter55{
+    transform: translateX(750px) translateY(-1460px) rotate(-50deg);    
+}
+
+#curveletter56{
+    transform: translateX(790px) translateY(-1530px) rotate(-30deg);    
+}
+
+#curveletter58{
+    transform: translateX(840px) translateY(-1590px) rotate(-5deg);    
+}
+
+#curveletter63{
+    transform: translateX(955px) translateY(-1660px) rotate(3deg);    
+}
+
+#curveletter66{
+    transform: translateX(1035px) translateY(-1707px) rotate(15deg);    
+}
+
+#curveletter67{
+    transform: translateX(1070px) translateY(-1753px) rotate(25deg);    
+}
+
+#curveletter68{
+    transform: translateX(1092px) translateY(-1800px) rotate(33deg);    
+}
+
+#curveletter69{
+    transform: translateX(1108px) translateY(-1846px) rotate(40deg);    
+}
+
+#curveletter72{
+    transform: translateX(1118px) translateY(-1866px) rotate(60deg);    
+}
+
+#curveletter73{
+    transform: translateX(1122px) translateY(-1913px) rotate(65deg);    
+}
+
+#curveletter74{
+    transform: translateX(1092px) translateY(-1948px) rotate(90deg);    
+}
+
+#curveletter75{
+    transform: translateX(1078px) translateY(-1986px) rotate(100deg);    
+}
+
+#curveletter77{
+    transform: translateX(1048px) translateY(-1995px) rotate(110deg);    
+}
+
+#curveletter80{
+    transform: translateX(968px) translateY(-2000px) rotate(135deg);    
+}
+
+#curveletter84{
+    transform: translateX(885px) translateY(-1997px) rotate(145deg);    
+}
+
+#curveletter92{
+    transform: translateX(735px) translateY(-1970px) rotate(145deg);    
+}
+
+#curveletter95{
+    transform: translateX(680px) translateY(-2000px) rotate(145deg);    
+}
+
+#curveletter96{
+    transform: translateX(658px) translateY(-2050px) rotate(145deg);    
+}
+
+#curveletter97{
+    transform: translateX(640px) translateY(-2105px) rotate(145deg);    
+}
+
+#curveletter98{
+    transform: translateX(630px) translateY(-2150px) rotate(140deg);    
+}
+
+#curveletter99{
+    transform: translateX(610px) translateY(-2190px) rotate(135deg);    
+}
+
+#curveletter100{
+    transform: translateX(585px) translateY(-2230px) rotate(135deg);    
+}
+
+#curveletter104{
+    transform: translateX(575px) translateY(-2205px) rotate(90deg);    
+}
+
+
+.listofprojects{
+    width: 100%;
+    height: 900px;
+    background-color: rgb(255, 243, 227);
+    background-image: linear-gradient(180deg, rgb(255, 243, 227), rgb(227, 218, 207));
+}
+
+.listofprojects h4{
+    margin-left: 90px;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+.project1{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    margin-left: 325px;
+    
+    
+    
+    height: 150px;
+    text-align: center;
+    
+}
+
+.pro1set{
+    display: flex;
+    font-size: 75px;
+    margin-right: 20px;
+    
+    
+}
+
+.pro1text{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#pro1textheading{
+    margin-left: 425px;
+    font-size: 40px;
+}
+
+.project2{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    margin-left: 325px;
+    
+    
+    
+    height: 150px;
+    text-align: center;
+    
+}
+
+.pro2set{
+    display: flex;
+    font-size: 75px;
+    margin-right: 20px;
+    
+    
+}
+
+.pro2text{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#pro2textheading{
+    margin-left: 425px;
+    font-size: 40px;
+}
+
+.project3{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    margin-left: 325px;
+    
+    
+    
+    height: 150px;
+    text-align: center;
+    
+}
+
+.pro3set{
+    display: flex;
+    font-size: 75px;
+    margin-right: 20px;
+    
+    
+}
+
+.pro3text{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#pro3textheading{
+    margin-left: 425px;
+    font-size: 40px;
+}
